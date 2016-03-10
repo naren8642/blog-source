@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Website Accessibility"
+date:   2016-03-10 13:39:55
+categories: web, education
+location: Houston, TX
+tags: web education
+---
+
+This whole thing is clear as mud. The good-ish news is that in terms of our content we were flagged for two things.
+Italics
+Missing alt text for images
+The alt text for images is something we have to provide so that a screen reader can describe the image for the blind.
+
+I tried several testing tools and some of the tools do not flag the italics. My concern with that is that when you read the Accessibility documents the italics is one of the things that they always talk about. I just don't want someone to make a big fuss for that.
+
+==
+
+Now for the bad-ish news. The testing tools flag some things with the Canvas framework. These are for some of their menu items and hidden elements. These flags range in severity with one or two showing up as 'must fix'.
+
+==
+
+The good-bad news:
+
+To explore this further I ran the tool on the following government websites
+
+section508.gov (the accessibility standards website)
+whitehouse.gov
+irs.gov
+iCEVonline.com
+
+And they all failed with similar issues to the ones on Canvas.
+
+==
+
+If our course is approved, we are required to get an independent body to certify the accessibility of our course website. This is due on May 5, 2017.
+
+The code can be found on Github [here](https://github.com/rowanoulton/travelog-theme).
+
+Any questions, get at me on Twitter: [@rowanoulton](https://twitter.com/rowanoulton/)

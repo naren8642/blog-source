@@ -1,13 +1,13 @@
 # Site settings
-title: Travelog
-subtitle: "Journal of [name]"
-email: your-email@domain.com
-description: "Make the footer happy by entering a short description about yourself here"
+title: NS
+subtitle: "Naren Salem"
+email: naren.salem@gmail.com
+description: "I love to code, lead and mentor."
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: "rowanoulton"
-github_username:  "rowanoulton"
-instagram_username: "rowanoulton"
+url: "http://narensalem.info"
+twitter_username: "NarenOfTheUS"
+github_username:  "naren8642"
+instagram_username: "narensale"
 
 # Build settings
 markdown: kramdown
@@ -19,3 +19,6 @@ paginate: 5
 # Sass
 sass:
     style: :compressed
+
+gems: [jekyll-paginate]
+
