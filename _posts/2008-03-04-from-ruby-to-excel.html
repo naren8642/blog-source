@@ -1,0 +1,12 @@
+---
+layout: post
+title: From Ruby to Excel
+date: '2008-03-04T16:17:00.000-08:00'
+author: Naren Salem
+tags: 
+modified_time: '2008-03-04T16:31:05.496-08:00'
+blogger_id: tag:blogger.com,1999:blog-360727496473333342.post-7295100130255161532
+blogger_orig_url: https://frigments.blogspot.com/2008/03/from-ruby-to-excel.html
+---
+
+Here is a little snippet showing how you can open up an Excel document in Ruby to read or update data in the spreadsheet.<br /><blockquote></blockquote><br /><blockquote># Require the WIN32OLE library<br />require 'win32ole'<br /><br /># Create an instance of the Excel application object<br />xl = WIN32OLE.new('Excel.Application')<br /><br /># Make Excel visible if you want to see a little live action<br />#xl.Visible = 1<br /><br />xl.workbooks.open("C:\\Documents and Settings\\MyName\\Desktop\\MyFile.xlsx")<br /><br />for row in 2..148<br /><br />    url = xl.Cells(row, 2).Value<br />    xl.Cells(row, 3).Value = Version<br /><br />end<br /><br /># Quit Excel<br />xl.Quit<br /><blockquote></blockquote></blockquote>

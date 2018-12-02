@@ -3,3 +3,6 @@ _site
 
 # Sass
 .sass-cache
+
+# Ruby
+.ruby-version
